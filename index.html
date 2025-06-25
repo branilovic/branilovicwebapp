@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+  body{
+    background-color: #002366;
+  }
+.accordion {
+  background-color: #ffd700;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  border: 3px solid gol;
+
+}
+
+.active, .accordion:hover {
+  background-color: #002366;
+  color: white; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  background-color: #002366;
+} 
+
+      
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+            border-collapse: collapse;
+            background-color: #ffd700;
+        }
+        .container {
+            margin-bottom: 20px;
+            
+        }
+    
+
+</style>
+</head>
+<body>
+  <br>
+  <br>
+  <br>
+  <br>
+    
+
+
+<button class="accordion">Kruh</button>
+<div class="panel">
+     <!-- Tablica 1: Kruh -->
+     <div class="container">
+     
+      <table>
+          <tr>
+              <th>Proizvod</th>
+              <th>Cijena (€)</th>
+              <th>Količina</th>
+          </tr>
+          <tr>
+              <td>Bijeli kruh</td>
+              <td>2.00</td>
+              <td><input type="text" name="proizvod" data-naziv="Bijeli kruh" data-cijena="2.00" value="0"></td>
+          </tr>
+          <tr>
+              <td>Crni kruh</td>
+              <td>2.50</td>
+              <td><input type="text" name="proizvod" data-naziv="Crni kruh" data-cijena="2.50" value="0"></td>
+          </tr>
+          <tr>
+              <td>Integralni kruh</td>
+              <td>3.00</td>
+              <td><input type="text" name="proizvod" data-naziv="Integralni kruh" data-cijena="3.00" value="0"></td>
+          </tr>
+          <tr>
+              <td>Kukuruzni kruh</td>
+              <td>2.00</td>
+              <td><input type="text" name="proizvod" data-naziv="Kukuruzni kruh" data-cijena="2.00" value="0"></td>
+          </tr>
+          <tr>
+              <td>Focaccia</td>
+              <td>2.00</td>
+              <td><input type="text" name="proizvod" data-naziv="Focaccia" data-cijena="2.00" value="0"></td>
+          </tr>
+      </table>
+  </div>
+
+</div>
+
+<button class="accordion">Slatki pekarski proizvodi</button>
+<div class="panel">
+ <!-- Tablica 2: Slatki pekarski proizvodi -->
+ <div class="container">
+ 
+  <table>
+      <tr>
+          <th>Proizvod</th>
+          <th>Cijena (€)</th>
+          <th>Količina</th>
+      </tr>
+      <tr>
+          <td>Krafna s marmeladom</td>
+          <td>1.20</td>
+          <td><input type="text" name="proizvod" data-naziv="Krafna s marmeladom" data-cijena="1.20" value="0"></td>
+      </tr>
+      <tr>
+          <td>Buhtla s čokoladom</td>
+          <td>1.50</td>
+          <td><input type="text" name="proizvod" data-naziv="Buhtla s čokoladom" data-cijena="1.50" value="0"></td>
+      </tr>
+      <tr>
+          <td>Štrudla od jabuka</td>
+          <td>1.80</td>
+          <td><input type="text" name="proizvod" data-naziv="Štrudla od jabuka" data-cijena="1.80" value="0"></td>
+      </tr>
+      <tr>
+          <td>Croissant s čokoladom</td>
+          <td>2.00</td>
+          <td><input type="text" name="proizvod" data-naziv="Croissant s čokoladom" data-cijena="2.00" value="0"></td>
+      </tr>
+      <tr>
+          <td>Pita s višnjama</td>
+          <td>1.70</td>
+          <td><input type="text" name="proizvod" data-naziv="Pita s višnjama" data-cijena="1.70" value="0"></td>
+      </tr>
+  </table>
+</div>
+</div>
+
+<button class="accordion">Dodatni pekarski proizvodi</button>
+<div class="panel">
+   <!-- Tablica 3: Dodatni pekarski proizvodi -->
+   <div class="container">
+    
+    <table>
+        <tr>
+            <th>Proizvod</th>
+            <th>Cijena (€)</th>
+            <th>Količina</th>
+        </tr>
+        <tr>
+            <td>Slani štapići</td>
+            <td>1.00</td>
+            <td><input type="text" name="proizvod" data-naziv="Slani štapići" data-cijena="1.00" value="0"></td>
+        </tr>
+        <tr>
+            <td>Pogačica sa sirom</td>
+            <td>1.80</td>
+            <td><input type="text" name="proizvod" data-naziv="Pogačica sa sirom" data-cijena="1.80" value="0"></td>
+        </tr>
+        <tr>
+            <td>Lisnato s makom</td>
+            <td>1.60</td>
+            <td><input type="text" name="proizvod" data-naziv="Lisnato s makom" data-cijena="1.60" value="0"></td>
+        </tr>
+        <tr>
+            <td>Mini pizza</td>
+            <td>2.20</td>
+            <td><input type="text" name="proizvod" data-naziv="Mini pizza" data-cijena="2.20" value="0"></td>
+        </tr>
+        <tr>
+            <td>Pletenica s vanilijom</td>
+            <td>1.90</td>
+            <td><input type="text" name="proizvod" data-naziv="Pletenica s vanilijom" data-cijena="1.90" value="0"></td>
+        </tr>
+    </table>
+</div>
+</div>
+<br>
+<br>
+<br>
+
+ <!-- Gumb za potvrdu -->
+ <div class="container">
+  <button onclick="dodajUKosaricu()">Dodaj u košaricu</button>
+</div>
+
+<!-- Rezultat narudžbe -->
+<div class="container">
+  <div id="rezultat_kupovine" style="color: white;">
+      <h3 style="color: white;">Naručili ste:</h3>
+  </div>
+  
+  <div id="total" style="color: white;">
+      <h3 style="color: white;">Ukupno:</h3>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+
+function dodajUKosaricu() {
+            let inputi = document.querySelectorAll('input[name="proizvod"]');
+            let rezultat = "<table>";
+            rezultat += "<tr><th>Proizvod</th><th>Cijena</th><th>Količina</th><th>Ukupno</th><th>Akcija</th></tr>";
+            let ukupno = 0;
+
+            inputi.forEach(input => {
+                let naziv = input.dataset.naziv;
+                let cijena = parseFloat(input.dataset.cijena);
+                let kolicina = parseInt(input.value);
+
+                if (!isNaN(kolicina) && kolicina > 0) {
+                    let iznos = cijena * kolicina;
+                    ukupno += iznos;
+
+                    rezultat += `<tr>
+                        <td>${naziv}</td>
+                        <td>${cijena.toFixed(2)} €</td>
+                        <td>${kolicina}</td>
+                        <td>${iznos.toFixed(2)} €</td>
+                        <td><button onclick="this.parentElement.parentElement.remove()">Izbriši</button></td>
+                    </tr>`;
+                }
+            });
+
+            rezultat += "</table>";
+            document.getElementById("rezultat_kupovine").innerHTML = "<h3>Naručili ste:</h3>" + rezultat;
+            document.getElementById("total").innerHTML = "<h3>Ukupno: " + ukupno.toFixed(2) + " €</h3>";
+        }
+</script>
+
+</body>
+</html>
